@@ -1,2 +1,2 @@
-listee = ["Sagar"]
-print(listee[0][0:-2])
+1 3 3 5 = 12 -
+1 2 3 10 = 16
