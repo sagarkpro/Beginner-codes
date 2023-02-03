@@ -30,3 +30,9 @@ a = 34
 b = 35
 a, b =b, a
 print(a, b)
+
+# COMPREHENSION LIST :
+
+iter_string = "some text"
+comp_list = [x for x in iter_string if x !=" "]
+print(comp_list)

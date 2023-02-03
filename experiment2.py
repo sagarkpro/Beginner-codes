@@ -1,42 +1,14 @@
-# Netflix type system demo - FakeFlix
-import csv
-import sys
+# listExp = [11,2,4,34,4,5,6,4,4]
+# val = 4
+# for i in range(len(listExp)):
+#     if val == listExp[i]:
+#         print(listExp[i])
+nums = [1,22,3,44,5,8,6,6,4,5,6,6,7,6,8,6,9,6,9,6]
+val = 6
+numsNew = []
 
+for i in range(len(nums)):
+    if val != nums[i]:
+        numsNew.append(nums[i])
+print(numsNew)
 
-def main():
-    menu()
-
-
-def menu():
-    print("************Welcome to FakeFlix Demo**************")
-    print()
-
-    choice = input("""
-                      A: Please Register
-                      B: Login
-                      Q: Logout
-
-                      Please enter your choice: """)
-
-    if choice == "A" or choice == "a":
-        register()
-    elif choice == "B" or choice == "b":
-        login()
-    elif choice == "Q" or choice == "q":
-        sys.exit
-    else:
-        print("You must only select either A or B")
-        print("Please try again")
-        menu()
-
-
-def register():
-    pass
-
-
-def login():
-    pass
-
-
-# the program is initiated, so to speak, here
-main()

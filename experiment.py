@@ -1,2 +1,7 @@
-1 3 3 5 = 12 -
-1 2 3 10 = 16
+class Solution:
+    def removeElement(self, nums: list[int], val: int) -> int:
+        numsNew = []
+        for i in range(len(nums)):
+            if val != nums[i]:
+                numsNew.append(nums[i])
+        nums = numsNew
