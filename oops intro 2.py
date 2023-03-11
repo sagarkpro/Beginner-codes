@@ -1,8 +1,8 @@
 class ToyotaCars:
-    def __init__(self, carName, horsePower, numCylinders):
-        self.carName = carName
-        self.horsePower = horsePower
-        self.numCylinders = numCylinders
+    def __init__(self, XcarName, XhorsePower, XnumCylinders):
+        self.carName = XcarName
+        self.horsePower = XhorsePower
+        self.numCylinders = XnumCylinders
     def prinCartInfo(self):
         return f"The name of the car is {self.carName} and it has {self.horsePower} and {self.numCylinders} Cylinders"
 

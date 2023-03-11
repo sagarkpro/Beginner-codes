@@ -12,6 +12,6 @@ while i < int(limit):
     # the cursor belongs
 
     pt.press("enter")
-    time.sleep(3)
+    time.sleep(0.3)
 
     i+=1
